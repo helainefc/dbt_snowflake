@@ -1,0 +1,15 @@
+models:
+  - name: customers_stg
+    description: Staged customer data.  
+  - name: orders_stg
+    description: Staged orders data from order management system.  
+    columns:
+      - name: OrderID
+        type: integer
+        description: The primary key for orders_stg table. 
+  - name: orders_fact
+    description: Staged orders data from order management system.  
+    columns:
+      - name: OrderID
+        type: integer
+        description: The primary key for orders_stg table. 
