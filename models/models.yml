@@ -13,3 +13,5 @@ models:
       - name: OrderID
         type: integer
         description: The primary key for orders_stg table. 
+        tests:
+          - string_not_empty
